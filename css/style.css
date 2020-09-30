@@ -16,9 +16,15 @@
 p{
     background-color: rgba(21, 21, 22, 0.5);
     width: 100%;
-    height: fit-content;
     text-align: justify;
     font-size: 25px;
+}
+button{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .banner{
     height: 700px;
@@ -45,6 +51,12 @@ h1{
 }
 
 p{
+    text-align: center;
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
     text-align: center;
 }
 .content{
