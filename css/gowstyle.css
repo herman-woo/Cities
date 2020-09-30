@@ -1,0 +1,23 @@
+.gallery{
+
+}
+
+img{
+    width: 25%;
+    height: 25%;
+}
+
+.container{
+    background-color: black;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.single{
+    width: 75.4%;
+
+}
