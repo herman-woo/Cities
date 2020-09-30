@@ -108,6 +108,7 @@ p{
     display: flex;
     flex-direction: row;
 
+    background-color: rgba(21, 21, 22, 0.5);
     border-radius: 1.5%;
     align-items: center;
     justify-content: space-between;
@@ -148,7 +149,6 @@ p{
 }
 .subscribe{
     margin: 10px;
-    background-color: black;
 }
 
 button{
@@ -160,8 +160,7 @@ button{
     }
     .sidebar{
         width: 300px;
-        border-right: 10px solid black;
-        
+        border-right: 10px solid black;      
     }
     .container{
         display: flex;
@@ -169,18 +168,7 @@ button{
         justify-content: space-between;
         align-items: space-between;
     }
-    
-
-
-
-
-
 }
-
-
-
-
-
 @media(min-width:1501px){
         .content{
 
