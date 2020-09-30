@@ -56,7 +56,7 @@ h2{
     width: 100%;
     margin: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
     grid-gap: 5px;
     grid-template-areas:
     "top"
@@ -67,7 +67,7 @@ h2{
 }
 
 .card{
-    border: 10px solid rgb(232, 242, 243);
+    border: 1px solid rgb(70, 73, 73);
     width: auto;
     height: auto;
     display: flex;
@@ -76,12 +76,11 @@ h2{
     align-items: center;
     margin: 10px;
     border-radius: 1.5%;
+    background-position: center;
+
 }
 a:link {
-    text-decoration: none;
-
-    
-    
+    text-decoration: none;  
   }
 
 h3{
@@ -97,28 +96,28 @@ h3{
 
 .egypt{
     background-image: url(./Egypt/egyptcard3.jpeg);
-    background-position: center;
+    
   }
   .greece{
     background-image: url(./Greece/greececard2.jpeg);
-    background-position: center;
+
 }
 
 .america{
     background-image: url(./America/ac3card.jpg);
-    background-position: center;
+
 }
 .continent{
     background-image: url(./continent/continentcard.jpg);
-    background-position: center;
+
 }
 .ff7{
     background-image: url(./ff7/ff7card.jpg);
-    background-position: center;
+
 }
 .gow{
     background-image: url(./Gow/gowcard2.jpg);
-    background-position: center;
+
 }
 
 
@@ -137,7 +136,7 @@ h3{
     border-bottom: 50px solid black;
 }
 
-@media(min-width:900px) and (max-width:1500px){
+@media(min-width:1000px) and (max-width:1500px){
     h1{
         font-size: 80px;
     }
@@ -180,5 +179,8 @@ h3{
     }
     h1{
         font-size: 100px;
+    }
+    h3{
+        font-size: 27px;
     }
 }
