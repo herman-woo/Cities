@@ -80,8 +80,26 @@ h3{
     border-radius: 1.5%;
     text-align: center;
     font-weight: lighter;
+    font-size: ;
+}
+h4{
+    background-color: rgba(44, 44, 58, 0.75);
+    margin-bottom: 0px;
+    height: auto;
+    width: 100%;
 }
 
+button{
+    height: 40px;
+    height: 60px;
+    background-color: rgba(44, 44, 58, 0.75);
+}
+.cardtop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
 .egypt{
     background-image: url(./Egypt/egyptcard3.jpeg);
     display: flex;
@@ -116,12 +134,12 @@ h3{
 .bottom{
     background-color: rgba(44, 44, 58, 0.5);
     display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     border-top: 1px solid rgb(232, 242, 243);
     border-bottom: 50px solid black;
+    align-items: center;
 }
 
 @media(min-width:1000px) and (max-width:1500px){
@@ -141,8 +159,25 @@ h3{
         "mid2"
         ;
     }
-
-
+    h1{
+        font-size: 52px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: space-evenly;
+        width: 100%;
+    }
 
 
 
@@ -170,5 +205,12 @@ h3{
     }
     h3{
         font-size: 37px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: space-evenly;
+        width: 100%;
     }
 }
