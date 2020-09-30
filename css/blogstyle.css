@@ -43,7 +43,7 @@ h1{
     
 }
 h3{
-    
+    font-size: 16px;
     color: rgba(249, 255, 254, 0.9);
 }
 .author{
@@ -191,7 +191,10 @@ button{
             font-size: 80px;
             text-align: left;
         }
-
+        h3{
+            font-size: 26px;
+            color: rgba(249, 255, 254, 0.9);
+        }
         .avatar{
             width: 160px;
             height: 160px;

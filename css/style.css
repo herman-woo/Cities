@@ -209,6 +209,9 @@ button{
     h3{
         font-size: 37px;
     }
+    h2{
+        font-size: 37px;
+    }
     .bottom{
         display: flex;
         flex-direction: row;
