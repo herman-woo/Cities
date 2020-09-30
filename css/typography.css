@@ -1,0 +1,15 @@
+
+.banner{
+    color: rgb(232, 242, 243);
+}
+
+
+
+h1, h2, h3, p{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(232, 242, 243);
+}
+
+h1{
+    font-size: 52px;
+}

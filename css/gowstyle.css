@@ -1,14 +1,12 @@
-.gallery{
-
-}
+@import "./backgroundstyle.css";
+@import "./typography.css";
 
 img{
     width: 25%;
     height: 25%;
+    border: 1px solid rgb(70, 73, 73);
 }
-
 .container{
-    background-color: black;
     align-items: center;
 }
 .content{
@@ -19,5 +17,4 @@ img{
 
 .single{
     width: 75.4%;
-
 }
