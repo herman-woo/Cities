@@ -5,18 +5,23 @@
 
 .container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+<!-- /*    align-items: center;*/
 }
 
 .sidebar{
-    width: 300px;
+    width: 100%;
     border-right: 10px solid black;
+    
 }
 
 .content{
     width: 100%;
     background-color: rgba(44, 44, 58, 0.87);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .banner{
@@ -68,7 +73,13 @@ p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 17px;
 }
-
+.workplace{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .article{
     border-radius: 1.5%;
     display: flex;
@@ -76,6 +87,7 @@ p{
     width: 80%;
     justify-content: center;
     align-items: center;
+    text-align: left;
     margin: 5%;
     background-color: rgba(44, 44, 58, 0.75);
 }
@@ -126,6 +138,34 @@ p{
     margin: 10px;
     color: black;
 }
+
+@media(min-width:1000px) and (max-width:1500px){
+    h1{
+        font-size: 80px;
+    }
+    .sidebar{
+        width: 300px;
+        border-right: 10px solid black;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    
+
+
+
+
+
+}
+
+
+
+
+
 @media(min-width:1501px){
         .content{
 
@@ -134,12 +174,7 @@ p{
             font-size: 80px;
             text-align: left;
         }
-        h3{
-            font-size: 35px;
-        }
-        h3{
-            font-size: 35px;
-        }
+
         .avatar{
             width: 160px;
             height: 160px;
