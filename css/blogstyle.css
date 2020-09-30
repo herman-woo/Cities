@@ -31,6 +31,7 @@
     align-items: center;
     justify-content: left;
     padding-left: 10%;
+    border-bottom: 1px solid rgb(232, 242, 243);
     
 }
 h1{
@@ -42,21 +43,23 @@ h1{
     
 }
 h3{
-    color: black;
+    
+    color: rgba(249, 255, 254, 0.9);
 }
 .author{
     display: flex;
     flex-direction: row;
     margin: 10px;
     align-items: center;
-    color: black;
-    background-color: rgba(249, 255, 254, 0.9);
+    background-color: rgba(21, 21, 22, 0.5);
+    border-radius: 1.5%;
+    border: 2px solid rgb(232, 242, 243);
     border-radius: 1.5%;
 }
 .avatar{
     width: 100px;
     height: 100px;
-    border: 2px solid rgb(232, 242, 243);
+    border: 1px solid rgb(232, 242, 243);
     border-radius: 100%;
     background-image: url(./avatar.JPG);
     background-position: center;
@@ -67,6 +70,7 @@ h3{
 .info{
     margin: 10px;
     color: black;
+
 }
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -91,7 +95,7 @@ p{
     background-color: rgba(44, 44, 58, 0.75);
 }
 .gallery{
-    width: auto;
+    width: 100%;
     height: auto;
     height: 400px;
 
