@@ -1,0 +1,10 @@
+@import "./css/style.css";
+
+.gallery{
+
+}
+
+img{
+    width: 25%;
+    height: 25%;
+}
