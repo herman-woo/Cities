@@ -1,0 +1,154 @@
+@import "./backgroundstyle.css";
+@import "./typography.css";
+@import "./linkstyle.css";
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sidebar{
+    width: 300px;
+    border-right: 10px solid black;
+}
+
+.content{
+    width: 100%;
+    background-color: rgba(44, 44, 58, 0.87);
+}
+
+.banner{
+    height: 650px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
+    
+}
+h1{
+    background-color: rgba(44, 44, 58, 0.75);
+    border: 5px solid rgb(232, 242, 243);
+    border-radius: 1.5%;
+    font-size: 40px;
+    text-align: left;
+    
+}
+h3{
+    color: black;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    color: black;
+    background-color: rgba(249, 255, 254, 0.9);
+    border-radius: 1.5%;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(232, 242, 243);
+    border-radius: 100%;
+    background-image: url(./avatar.JPG);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 10px;   
+}
+
+.info{
+    margin: 10px;
+    color: black;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.article{
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    background-color: rgba(44, 44, 58, 0.75);
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(249, 255, 254, 0.9);
+    border-radius: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar2{
+    width: 165px;
+    height: 165px;
+    border: 2px solid rgb(232, 242, 243);
+    border-radius: 100%;
+    background-image: url(./avatar.JPG);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 10px;   
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.twitter{
+    background-image: url(./blog/twitter.JPG);  
+}
+.facebook{
+    background-image: url(./blog/facebook.JPG);  
+}
+.linkedin{
+    background-image: url(./blog/linkedin.JPG);  
+}
+.instagram{
+    background-image: url(./blog/instagram.JPG);  
+}
+.subscribe{
+    margin: 10px;
+    color: black;
+}
+@media(min-width:1501px){
+        .content{
+
+        }
+        h1{
+            font-size: 80px;
+            text-align: left;
+        }
+        h3{
+            font-size: 35px;
+        }
+        h3{
+            font-size: 35px;
+        }
+        .avatar{
+            width: 160px;
+            height: 160px;
+            border: 3px solid rgb(232, 242, 243);
+            border-radius: 100%;            
+        }
+        .article{
+
+            width: 1000px;
+            
+        }
+    }
