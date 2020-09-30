@@ -6,7 +6,6 @@
 .container{
     display: flex;
     flex-direction: column;
-<!-- /*    align-items: center;*/
 }
 
 .sidebar{
@@ -85,13 +84,22 @@ p{
     display: flex;
     flex-direction: column;
     width: 80%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: left;
     margin: 5%;
     background-color: rgba(44, 44, 58, 0.75);
 }
+.gallery{
+    width: auto;
+    height: auto;
+    height: 400px;
 
+}
+.first{
+    width: 97%;
+    height: 97%;
+}
 .final{
     display: flex;
     flex-direction: row;
@@ -170,6 +178,20 @@ p{
         .content{
 
         }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: space-between;
+        }
+        
+        .sidebar{
+            width: 300px;
+            border-right: 10px solid black;
+            
+        }
+    
+    
         h1{
             font-size: 80px;
             text-align: left;
