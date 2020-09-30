@@ -107,7 +107,7 @@ p{
 .final{
     display: flex;
     flex-direction: row;
-    background-color: rgba(249, 255, 254, 0.9);
+
     border-radius: 1.5%;
     align-items: center;
     justify-content: space-between;
@@ -148,9 +148,12 @@ p{
 }
 .subscribe{
     margin: 10px;
-    color: black;
+    background-color: black;
 }
 
+button{
+    background-color: black;
+}
 @media(min-width:1000px) and (max-width:1500px){
     h1{
         font-size: 80px;
