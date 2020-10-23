@@ -10,6 +10,7 @@ function scrollUp() {
 //Functionality to show button after the page is scrolled past the home
 //find the button, decalre global variable//
 topButton = document.getElementById("topButton");
+nyCity = document.getElementById("nyLink");
 
 window.onscroll = function() {scrollFunction()};
 
@@ -20,5 +21,8 @@ function scrollFunction() {
     else{
         topButton.style.display = "none";
     }
+    
 }
+
+
 
