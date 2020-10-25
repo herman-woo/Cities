@@ -1,17 +1,10 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.sections{
+#sections{
     width: 100%;
 }
 .section{
-    border: 2px solid black;
     height: 1000px;
     width: 100%;
+    border: 2px solid black;
 }
 a {
     text-decoration: none;
@@ -29,13 +22,14 @@ a {
 }
 .link{
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     padding: 15px;
+    font-weight: bolder;
 }
-.link.active, .link:hover{
+.active, .link:hover{
     background-color: rgb(129, 129, 129);
     transition: ease 0.25s all;
 }
@@ -48,7 +42,7 @@ a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    background-color: rgba(21, 21, 22, 0.5);
+    background-color: rgb(0, 0, 0);
     margin-left: 20px;
     padding: 20px;
 }
@@ -60,7 +54,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.city.font{
+.city.name{
     margin-left: 50px;
     font-size: 50px;
     color: white;
@@ -74,7 +68,7 @@ a {
     justify-content: center;
     align-items: center;
 }
-.city.font:hover {
+.city.name:hover {
     background-color: rgb(0, 0, 0);
     color: white;
     transition: ease 0.2s all;
@@ -95,31 +89,37 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-#mexico{
+.city#mexico{
     background-image: url(./css/images/mexicocity.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#nyc{
+.city#nyc{
     background-image: url(./css/images/newyork.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#losangeles{
+.city#losangeles{
     background-image: url(./css/images/losangeles.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#toronto{
+.city#toronto{
     background-image: url(./css/images/toronto.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: left;
-    
+    text-align: left;  
+}
+.city#test{
+    background-image: url(./css/images/Title.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
 }
 
 #topButton{
@@ -131,8 +131,8 @@ a {
     outline: none;
     background-color: rgba(0, 0, 0, 0.486);
     color: rgba(255, 255, 255, 0.459);
-    height: 30px;
-    width: 60px;
+    height: 60px;
+    width: 120px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20%;
 }
