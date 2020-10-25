@@ -13,8 +13,9 @@ ul{
     justify-content: flex-end;
     align-items: center;
 }
-a {
+li {
     text-decoration: none;
+    cursor: pointer;
   }
 .header.box{
     background-color: black;
@@ -44,6 +45,9 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.font{
+    cursor: default;
 }
 .home.font{
     color: white;
@@ -79,6 +83,7 @@ a {
     background-color: rgb(0, 0, 0);
     color: white;
     transition: ease 0.2s all;
+    cursor: default;
   }
 .population.font{
     margin-left: 50px;
