@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 #sections{
     width: 100%;
 }
@@ -63,7 +66,6 @@ li {
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 .city.name{
     margin-left: 50px;
