@@ -1,0 +1,232 @@
+@import "../styles/backgroundstyle.css";
+@import "../styles/typography.css";
+@import "../styles/linkstyle.css";
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    width: 100%;
+    border-right: 10px solid black;
+    
+}
+
+.content{
+    width: 100%;
+    background-color: rgba(44, 44, 58, 0.87);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.banner{
+    height: 650px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
+    border-bottom: 1px solid rgb(232, 242, 243);
+    
+}
+h1{
+    background-color: rgba(44, 44, 58, 0.75);
+    border: 5px solid rgb(232, 242, 243);
+    border-radius: 1.5%;
+    font-size: 40px;
+    text-align: left;
+    
+}
+
+h3{
+    font-size: 16px;
+    color: rgba(249, 255, 254, 0.9);
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    background-color: rgba(21, 21, 22, 0.5);
+    border-radius: 1.5%;
+    border: 2px solid rgb(232, 242, 243);
+    border-radius: 1.5%;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(232, 242, 243);
+    border-radius: 100%;
+    background-image: url(../images/avatar.JPG);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 10px;   
+}
+
+figcaption{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: ;
+}
+
+.info{
+    margin: 10px;
+    color: black;
+
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.workplace{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    border-radius: 1.5%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin: 5%;
+    background-color: rgba(44, 44, 58, 0.575);
+}
+
+.gallery{
+    width: 100%;
+    height: auto;
+    height: 400px;
+
+}
+
+.first{
+    width: 97%;
+    height: 97%;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(21, 21, 22, 0.5);
+    border-radius: 1.5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar2{
+    width: 165px;
+    height: 165px;
+    border: 2px solid rgb(232, 242, 243);
+    border-radius: 100%;
+    background-image: url(../images/avatar.JPG);
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 10px;   
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.twitter{
+    background-image: url(../images/blog/twitter.JPG);  
+}
+
+.facebook{
+    background-image: url(../images/blog/facebook.JPG);  
+}
+
+.linkedin{
+    background-image: url(../images/blog/linkedin.JPG);  
+}
+
+.instagram{
+    background-image: url(../images/blog/instagram.JPG);  
+}
+
+.subscribe{
+    margin: 10px;
+}
+
+button{
+    background-color: black;
+}
+@media(min-width:1000px) and (max-width:1500px){
+    h1{
+        font-size: 80px;
+    }
+    .sidebar{
+        width: 300px;
+        border-right: 10px solid black;      
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+}
+@media(min-width:1501px){
+        .content{
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: space-between;
+        }
+        
+        .sidebar{
+            width: 300px;
+            border-right: 10px solid black;
+            
+        }
+    
+        h1{
+            font-size: 80px;
+            text-align: left;
+        }
+
+        h3{
+            font-size: 26px;
+            color: rgba(249, 255, 254, 0.9);
+        }
+
+        .avatar{
+            width: 160px;
+            height: 160px;
+            border: 3px solid rgb(232, 242, 243);
+            border-radius: 100%;            
+        }
+
+        .article{
+
+            width: 1000px;
+            
+        }
+    }
