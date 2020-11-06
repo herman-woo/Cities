@@ -1,0 +1,25 @@
+.container{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(21, 21, 22, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 50px solid black;
+}
+
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.83);
+}

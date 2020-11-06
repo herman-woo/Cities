@@ -1,59 +1,31 @@
-/*----------- 1. SERVER -----------*/
+//Express to run server and routes
+const express = require('express');
 
-  /* EXPRESS */
-    //Express to run server and routes
-    const express = require('express');
-    //Start up an instance of app
-    const app = express();
+//start up an instance of app
+const app = express();
 
-  /* DEPENDENCIES */
-    const bodyParser = require('body-parser')
+/* Dependencies */
+const bodyParser = require('body-parser')
 
-  /* Middleware*/
-  app.use(bodyParser.urlencoded({ extended: false }));
-  app.use(bodyParser.json());
-  const cors = require('cors');
-  app.use(cors());
+/* Middleware */
+//configuring express to use body-parser as middle-ware.
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+//Cors for cross origin allowance
 
-  /* Initialize the main project folder*/
-  app.use(express.static('website'));
-  
-  /* Spin up the server */
-  const port = 3000;
-  const server = app.listen(port, listening);
-  function listening(){
-      // console.log(server);
-      console.log(`running on localhost: ${port}`);
-    }; 
-/*----------- END OF SERVER -----------*/
+const cors = require('cors');
+app.use(cors());
+
+// Initialize the main project folder
+app.use(express.static('demo'));
 
 
 
+const port = 8000;
 
+const server = app.listen(port, listening);
 
-/*----------- 2. ROUTES -----------*/
-/* Empty JS object to act as endpoint for all routes */
-const projectData = [];
-//Telling the server how to respond to HTTPS requests
-
-app.post('/addData', addData)
-
-function addData (req, res){
-
-  newEntry = {
-    city: req.body.city,
-    temp: req.body.temp,
-    notes: req.body.notes,
-    date: req.body.date
-  }
-  projectData.push(newEntry)
-  console.log(newEntry);
-  res.send(projectData);
+function listening(){
+    console.log("server running");
+    console.log(`running on localhost: ${port}`);
 }
-
-//tell express to send appData when a GET request is made
-app.get('/all', getData)  //request is made from client side '/all'
-
-  function getData(req,res){
-    res.send(projectData);
-  }

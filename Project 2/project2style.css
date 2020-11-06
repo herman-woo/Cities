@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+}
+#sections{
+    width: 100%;
+}
+.section{
+    height: 1000px;
+    width: 100%;
+    border: 2px solid black;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+li {
+    text-decoration: none;
+    cursor: pointer;
+  }
+.header.box{
+    background-color: black;
+    position: fixed;
+    height: 70px;
+    width: 98%;
+    top: -20px;
+    left: 0;
+    right: 10;
+
+}
+.link{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+.active, .link:hover{
+    background-color: rgb(129, 129, 129);
+    transition: ease 0.25s all;
+}
+.home.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.font{
+    cursor: default;
+}
+.home.font{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+    padding: 20px;
+}
+.city.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.city.name{
+    margin-left: 50px;
+    font-size: 50px;
+    color: white;
+    border: 3px solid white;
+    padding: 35px;
+    background-color: rgba(21, 21, 22, 0.5);
+    width: 240px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.city.name:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: ease 0.2s all;
+    cursor: default;
+  }
+.population.font{
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+    padding: 35px;
+    background-color: rgba(21, 21, 22, 0.5);
+    width: auto;
+    height: 20px;
+    text-align: center;
+}
+#top{
+    background-image: url(./css/images/Title.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.city#mexico{
+    background-image: url(./css/images/mexicocity.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.city#nyc{
+    background-image: url(./css/images/newyork.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.city#losangeles{
+    background-image: url(./css/images/losangeles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.city#toronto{
+    background-image: url(./css/images/toronto.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;  
+}
+.city#test{
+    background-image: url(./css/images/Title.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+#topButton{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: rgba(255, 255, 255, 0.459);
+    height: 60px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20%;
+}
+#topButton:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: ease 0.2s all;
+  }
