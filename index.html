@@ -1,44 +1,66 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./style.css" rel="stylesheet">
-    <title>Herman's Page</title>
-</head>
+<header>
+    <link href="project2style.css" rel="stylesheet">
+    <title>Landing Page Project</title>
+    <ul class="header box">
+    </ul>
+</header>
 
 <body>
-    <div class='dashboard-banner'>
-        <div>
-            Front End Projects
+    <div id="sections">
+        <div class="home section" id="top">
+            <h1 class="home font">
+                Most Populous North American Cities
+            </h1>
         </div>
-
+        <div class="city section" id="mexico">
+            <h1 class="city name">
+                Mexico City
+            </h1>
+            <h1 class="population font">
+                population: 8.9 mil
+            </h1>
+        </div>
+        <div class="city section" id="nyc">
+            <h1 class="city name">
+                New York City
+            </h1>
+            <h1 class="population font">
+                population: 8.5 mil
+            </h1>
+        </div>
+        <div class="city section" id="test">
+            <h1 class="city name">
+                Test Section
+            </h1>
+            <h1 class="population font">
+                population: Test mil
+            </h1>
+        </div>
+        <div class="city section" id="losangeles">
+            <h1 class="city name">
+                Los Angeles
+            </h1>
+            <h1 class="population font">
+                population: 3.9 mil
+            </h1>
+        </div>
+        <div class="city section" id="toronto">
+            <h1 class="city name">
+                Toronto
+            </h1>
+            <h1 class="population font">
+                population: 2.8 mil
+            </h1>
+        </div>
+        
     </div>
-    <div class='frontpage'>
-        <div class="project">
-            <a href="./Nomad/pages/index.html">
-                <div class="project nomad">
-                    Virtual Nomad
-                </div>
-            </a>
-        </div>
-        <div class="project">
-            <a href="./Cities/project2.html">
-                <div class="project cities">
-                    Project 2 - Landing Page
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class='dashboard-footer'>
-        <div>
-            Herman Woo
-        </div>
-
+    <button onclick="scrollUp()" id="topButton">
+        Top
+    </button>
     </div>
 
     <script src="app.js"></script>
 </body>
-
-
 </html>
